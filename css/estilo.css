@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkseagreen;
+}
+
+header{
+    width: 90%;
+    height: 130px;
+    background-color: dimgrey;
+    border: 3px solid black;
+    margin: 15px auto;
+    letter-spacing: 12px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: white 8px 8px 10px;
+}
+
+section{
+    width: 220px;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+
+/*Quitando las Viñetas ye le espacio*/
+#lista ul {
+    list-style: none;
+    padding: 0px;
+}
+
+/*Definidendo el Enlace*/
+#lista ul li a{
+    display: block; /*Conviete en Bloque*/
+    background-color: #333; /*Color Oscuro*/
+    padding: 5px;
+    text-decoration: none; /*Quita la linea inferior*/
+    color: white;
+    /*Transicion*/
+    transition:transform 0.7s ease 0s;
+}
+
+/*Al posicionar el mouse*/
+
+#lista ul li a:hover {
+    /*
+    -webkit-transform:rotate(-5deg);
+    
+    -webkit-box-shadow:10px 10px 20px #000000;
+    */
+    margin-left: 5px;
+    transform: rotate(-5deg);
+    box-shadow:10px 10px 20px #000000;
+}
+
+footer{
+    text-align: center;
+}
