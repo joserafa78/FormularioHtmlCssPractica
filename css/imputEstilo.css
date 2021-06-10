@@ -1,0 +1,14 @@
+.labelCSS{
+    display: block;
+    font-weight:bold; /*Fuente en Negrita*/
+    width: 430px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.inputcss{
+    height: 22px;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: grey 5px 5px 10px;
+}

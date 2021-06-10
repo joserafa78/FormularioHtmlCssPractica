@@ -1,0 +1,7 @@
+.labelCSS{
+    display: block;
+    font-weight:bold; /*Fuente en Negrita*/
+    width: 430px;
+    font-size: 12px;
+    padding: 5px;
+}
