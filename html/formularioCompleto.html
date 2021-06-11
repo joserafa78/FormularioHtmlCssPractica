@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Comp</title>
+    <meta name="Formulario" content="Academico">
+    <meta charset="utf-8">
+    <link type="text/css" href="../css/estilo.css" rel="stylesheet">
+    <link type="text/css" href="../css/formulario.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1> Formulirio Completo </h1>
+            <h3> -Llenar- </h3>
+        </hgroup>
+
+    </header>
+
+<div id="contenedor1"> 
+    <!-- Navegador -->
+    <section id="lista">
+        <nav>
+            <ul>
+                <li> <a href="../index.html"> Principal </a></li>
+                <li> <a href="label.html"> Label </a></li>
+                <li> <a href="imput.html"> Imput </a></li>
+                <li> <a href="textarea.html"> TextArea </a></li>
+                <li> <a href="botones.html"> Botones </a></li>
+                <li> <a href="checkbox.html"> checkbox </a></li>
+                <li> <a href="radiobutton.html"> RadioButton </a></li>
+                <li> <a href="cuadrocombiando.html"> Cuadro Combinado </a></li>
+                <li> <a href="cuadrodelista.html"> Cuadro De Lista </a></li>
+                <li> <a href="datalist.html"> DataList </a></li>
+                <li> <a href="controldearchivos.html"> Control de Archivos </a></li>
+                <li> <a href="datosocultos.html"> Datos Ocultos </a></li>
+                <li> <a href="formularioCompleto.html">Formulario</a>
+                
+
+            </ul>
+
+
+        </nav>
+    </section>
+    <section id="contenido"><!--aqui va el Formulario-->
+   <form name="frmregistro" method="post" action="principal.html">
+                <h1>FORMULARIO DE REGISTRO</h1>
+                <label id="label">Complete el formulario con sus datos</label>
+                <p id="linea">&nbsp;</p>
+
+                <label id="label">Nombres y apellidos
+                    <input name="txtnombres" type="text" 
+                           id="caja" size="60" 
+                           placeholder="ingrese datos completos" required/>
+                </label>
+                <label id="label">Dni 
+                    <input type="text" id="caja" name="txtdni" 
+                           size="60" placeholder="8 caracteres" disabled/>
+                </label>
+                <label id="label">Telefono 
+                    <input type="tel" id="caja" size="60" name="txtfono"/>
+                </label>
+
+                <label id="label">Estudios realizados </label>
+                <label id="label">
+                    <input type="checkbox" name="chkprimaria" 
+                           checked="checked"/> Primaria
+                </label>
+                <label id="label">
+                    <input type="checkbox" name="chksecundaria" /> Secundaria 
+                </label>
+                <label id="label">
+                    <input type="checkbox" name="chktecnico" /> Técnico 
+                </label>
+                <label id="label">
+                    <input type="checkbox" name="chkuniversitario" /> Universitario
+                </label>
+                <br/>
+
+                <label id="label">Estado civil</label>
+                <label id="label"> 
+                    <input type="radio" name="btnestado" value="s" 
+                           checked="checked"/> Soltero
+                </label>
+                <label id="label"> 
+                    <input type="radio" name="btnestado" value="c" /> Casado
+                </label>
+                <label id="label"> 
+                    <input type="radio" name="btnestado" value="v" /> Viudo
+                </label>
+                <label id="label"> 
+                    <input type="radio" name="btnestado" value="d" /> Divorciado
+                </label>
+                <br/>
+
+                <label id="label">Provincia</label>
+                <input type="text" name="txtprovincia" list="provincias"/>
+                <datalist id="provincias">
+                    <option value="Lima" />
+                    <option value="Arequipa" />
+                    <option value="Tacna" />
+                    <option value="Trujillo" />
+                    <option value="Huancayo" />
+                </datalist>
+
+                <label id="label">Correo electronico 
+                    <input type="email" id="caja" size="60" name="txtemail"/>
+                </label>
+
+                <label id="label">Clave personal 
+                    <input type="password" id="caja" 
+                           name="txtclave" size="60" 
+                           placeholder="máximo 6 caracteres "/>
+                </label>
+
+                <label id="label">Color de preferencia 
+                    <input type="color" name="txtcolor"/>
+                </label>
+
+                <label id="label">Fecha de nacimiento 
+                    <input type="datetime-local" name="txtfecha"/>
+                </label>
+
+                <input type="submit" value="registrar">
+                <input type="reset" value="limpiar">
+            </form>  
+    </section>
+</div>
+   <br>
+    <footer>
+        <hr zise="3">
+        <h4>Desarrollador: Jose Rafael Jimenez</h4>
+        <address>
+            <p> <strong>Github:</strong>@Joserafa78 </p>
+        </address>
+        
+    </footer>
+<br>
+</body></html>
