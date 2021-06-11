@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuadro Lista</title>
+    <meta name="Cuadro Lista" content="Academico">
+    <meta charset="utf-8">
+    <link type="text/css" href="../css/estilo.css" rel="stylesheet">
+    <link type="text/css" href="../css/radioEstilo.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1> Cuadro Lista </h1>
+            <h3> -Es un Menu que Desplega opciones </h3>
+        </hgroup>
+
+    </header>
+
+<div id="contenedor"> 
+    <!-- Navegador -->
+    <section id="lista">
+        <nav>
+            <ul>
+                <li> <a href="../index.html"> Principal </a></li>
+                <li> <a href="label.html"> Label </a></li>
+                <li> <a href="imput.html"> Imput </a></li>
+                <li> <a href="textarea.html"> TextArea </a></li>
+                <li> <a href="botones.html"> Botones </a></li>
+                <li> <a href="checkbox.html"> checkbox </a></li>
+                <li> <a href="radiobutton.html"> RadioButton </a></li>
+                <li> <a href="cuadrocombiando.html"> Cuadro Combinado </a></li>
+                <li> <a href="cuadrodelista.html"> Cuadro De Lista </a></li>
+                <li> <a href="datalist.html"> DataList </a></li>
+                <li> <a href="controldearchivos.html"> Control de Archivos </a></li>
+                <li> <a href="datosocultos.html"> Datos Ocultos </a></li>
+            </ul>
+
+
+        </nav>
+    </section>
+    <section id="contenido"><!--aqui va el Formulario-->
+        <form id="Formulario1" name="Formulario1" method="get" action="botones.html">
+        <table>
+            <tr>
+            <td> FORMULARIO DE CONTACTO <br><br> </td>
+            </tr>    
+            <tr>
+            <td> 
+                <label>Nombre Completo </label><br>
+                <input class="entrada" type="text" id="nombre" placeholder="Ingrese su Nombre" required>
+                <input type="image" src="../img/1190.png" value="Buscar" onclick="javascript: alert('Comineza la Busqueda');">
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label>Correo Electrónico</label><br>
+                <input class="entrada" type="email" placeholder="Ingrese Correo" required>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label>Teléfono</label><br>
+                <input class="entrada" type="tel" placeholder="Ingrese Teléfono" required>
+                </td>
+            
+            </tr>
+            <tr>
+            <td>
+               Cuadro de Lista de Ciudades<br>
+              <select name="Cuadro1" size="5">
+                  <option value="valor1" >Medellin</option>
+                  <option value="valor2" >Bogota</option>
+                  <option value="valor3" >Chiquinquira</option>
+                  <option value="valor4" selected >Muzo</option>
+                  <option value="valor5" >Quipama</option>
+                </select> <br>        
+                </td>
+            </tr>
+           
+            <tr>
+            <td> <br>
+                <input type="reset" value="Limpiar"> 
+                <input type="submit" value="Enviar"> 
+                <input type="button" value="Programado" 
+                onclick="javascrip: document.location='www.google.com';">
+                </td>
+            </tr>
+        </table>
+        
+        </form>
+        
+    </section>
+</div>
+   <br>
+    <footer>
+        <hr zise="3">
+        <h4>Desarrollador: Jose Rafael Jimenez</h4>
+        <address>
+            <p> <strong>Github:</strong>@Joserafa78 </p>
+        </address>
+        
+    </footer>
+<br>
+</body></html>

@@ -1,0 +1,16 @@
+#Formulario1{
+    padding: 10px;
+    margin: 0px;
+    width: 260px;
+    border: 2px solid gray;
+}
+
+#Formulario1 .entrada{
+    font-family: Tahoma;
+    font-size: 16px;
+    width: 250px;
+}      
+#Formulario1 .ClassCheck{
+  
+   
+}
